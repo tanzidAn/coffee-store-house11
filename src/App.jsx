@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='m-20'>
       <h1 className='text-6xl text-center my-20 text-purple-600'>HOt HOt cold coffee:{coffees.length}</h1>
-      <Link to="/addCoffee">Home</Link>
+      <Link to="/addCoffee">AddCoffee</Link>
       <Outlet></Outlet>
       <div className='grid md:grid-cols-2 gap-4'>
       {
